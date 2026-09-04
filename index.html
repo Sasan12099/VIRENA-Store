@@ -1,0 +1,73 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#171514"><title>VIRENA | فروشگاه اکسسوری</title><style>
+:root{--ink:#171514;--muted:#77706b;--cream:#f7f2ee;--line:#e9e1dc;--card:#fff;--accent:#a87961;--green:#35745a;--danger:#a33d3d}*{box-sizing:border-box}body{margin:0;background:#eee9e5;color:var(--ink);font-family:Tahoma,Arial,sans-serif}.app{max-width:620px;margin:auto;min-height:100vh;background:#fff;box-shadow:0 0 40px #0001}.top{position:sticky;top:0;z-index:20;background:#fffffff2;backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:14px 18px}.topin{display:flex;align-items:center;justify-content:space-between}.logo{font:700 27px Georgia,serif;letter-spacing:4px}.cart{border:1px solid var(--line);background:#fff;border-radius:24px;padding:9px 13px}.hero{margin:18px;padding:28px 22px;border-radius:28px;background:linear-gradient(145deg,#efe6df,#faf7f4);overflow:hidden;position:relative}.hero:after{content:'V';position:absolute;left:-8px;bottom:-42px;font:700 170px Georgia;color:#fff6}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--accent)}.hero h1{font:700 34px/1.35 Georgia,serif;margin:8px 0}.hero p{font-size:13px;line-height:2;color:#625a55;max-width:420px}.trust{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.trust span{background:#ffffffb8;border:1px solid #fff;border-radius:20px;padding:7px 10px;font-size:10px}.section{padding:0 18px 90px}.sectionhead{display:flex;align-items:end;justify-content:space-between;margin:10px 0 14px}.sectionhead h2{margin:0;font-size:18px}.sectionhead small{color:var(--muted)}.tabs{display:flex;gap:8px;overflow:auto;padding:0 0 14px}.tab{border:1px solid var(--line);background:#fff;border-radius:22px;padding:9px 14px;white-space:nowrap;font-size:11px}.tab.active{background:var(--ink);color:#fff}.grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.card{border:1px solid var(--line);border-radius:21px;overflow:hidden;background:#fff}.pic{height:195px;background:radial-gradient(circle at 50% 38%,#fff,#ded3cb);display:grid;place-items:center;font-size:54px}.info{padding:13px}.name{font-weight:700;font-size:13px}.meta{font-size:10px;color:var(--muted);margin-top:5px}.price{font-size:13px;margin-top:10px}.add{width:100%;border:0;background:var(--ink);color:#fff;border-radius:12px;padding:11px;margin-top:10px;font-size:11px}.bottom{position:fixed;bottom:0;left:0;right:0;z-index:25;max-width:620px;margin:auto;background:#fffffff5;border-top:1px solid var(--line);padding:10px 18px}.bottom button{width:100%;border:0;background:var(--ink);color:#fff;border-radius:15px;padding:14px}.badge{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:10px;background:var(--accent);color:#fff;font-size:10px;margin-right:4px}.overlay{display:none;position:fixed;inset:0;background:#0007;z-index:50}.sheet{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:620px;max-height:94vh;overflow:auto;background:#fff;border-radius:28px 28px 0 0;padding:21px}.close{float:left;border:0;background:#f1eeeb;width:36px;height:36px;border-radius:50%;font-size:20px}.sheet h2{margin:3px 0 20px}.item{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}.qty{display:flex;align-items:center;gap:7px}.qty button{border:1px solid var(--line);background:#fff;border-radius:8px;width:29px;height:29px}.total{display:flex;justify-content:space-between;font-weight:700;padding:18px 0;font-size:15px}.field{margin:11px 0}.field label{display:block;font-size:11px;margin-bottom:6px}.field input,.field textarea,.field select{width:100%;border:1px solid #ddd5cf;border-radius:13px;padding:12px;background:#fff;outline:0}.field textarea{min-height:85px}.pay{display:grid;gap:8px}.pay label{border:1px solid var(--line);border-radius:14px;padding:13px;font-size:12px}.pay input{margin-left:8px}.notice{background:#f6f2ef;border-radius:14px;padding:12px;font-size:11px;line-height:2;margin:14px 0}.primary{width:100%;border:0;background:var(--ink);color:#fff;border-radius:14px;padding:14px;font-size:12px}.success{text-align:center;padding:25px 5px}.ok{font-size:52px}.ordercode{font:700 20px monospace;background:#f4f0ed;border-radius:12px;padding:12px;margin:15px 0}.status{display:inline-block;background:#eef6f1;color:var(--green);border-radius:20px;padding:8px 12px;font-size:11px}.empty{text-align:center;color:var(--muted);padding:35px}.toast{display:none;position:fixed;top:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 17px;border-radius:24px;font-size:11px;z-index:80}.footer{padding:0 18px 110px;color:var(--muted);font-size:10px;line-height:2;text-align:center}@media(max-width:380px){.pic{height:160px}.hero h1{font-size:29px}}
+</style></head><body><div class="app"><header class="top"><div class="topin"><div class="logo">VIRENA</div><button class="cart" onclick="openCart()">🛍️ سبد <span class="badge" id="badge">0</span></button></div></header><section class="hero"><div class="eyebrow">WOMEN'S ACCESSORIES</div><h1>یک جزئیات کوچک،<br>یک استایل متفاوت.</h1><p>اکسسوری‌های ظریف و خاص VIRENA را انتخاب کن و سفارشت را با چند لمس ثبت کن.</p><div class="trust"><span>✦ انتخاب خاص</span><span>✓ ثبت سفارش آسان</span><span>🔒 پرداخت امن</span></div></section><section class="section"><div class="sectionhead"><h2>محصولات منتخب</h2><small id="countText"></small></div><div class="tabs" id="tabs"></div><div class="grid" id="grid"></div></section><div class="footer">VIRENA · تمامی حقوق محفوظ است<br>در نسخه نهایی، پرداخت آنلاین فقط پس از تأیید تراکنش توسط درگاه و سرور معتبر خواهد بود.</div><div class="bottom"><button onclick="openCart()">مشاهده سبد و ثبت سفارش</button></div></div><div class="toast" id="toast"></div><div class="overlay" id="cartLayer" onclick="outside(event,'cartLayer')"><div class="sheet" id="cartSheet"></div></div><div class="overlay" id="checkoutLayer" onclick="outside(event,'checkoutLayer')"><div class="sheet" id="checkoutSheet"></div></div>
+<script>
+const API_BASE='https://virena-vira-backend.onrender.com';
+const PRODUCTS_URL=API_BASE+'/v1/store/products';
+const ORDER_URL=API_BASE+'/v1/store/orders';
+let products=[];
+let category='همه';
+let cart=JSON.parse(localStorage.getItem('virena_cart')||'{}');
+
+const $=s=>document.querySelector(s);
+const money=n=>Number(n||0).toLocaleString('fa-IR')+' تومان';
+function saveCart(){localStorage.setItem('virena_cart',JSON.stringify(cart));}
+function total(){return Object.entries(cart).reduce((sum,[id,q])=>{const p=products.find(x=>String(x.id)===String(id));return sum+(p?Number(p.price)*q:0)},0)}
+function cleanCart(){for(const id of Object.keys(cart)){const p=products.find(x=>String(x.id)===String(id));if(!p||Number(p.stock)<=0)delete cart[id];else cart[id]=Math.min(Number(cart[id])||0,Number(p.stock));}saveCart();}
+
+async function loadProducts(){
+  try{
+    const r=await fetch(PRODUCTS_URL,{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    const data=await r.json();
+    products=(data.products||[]).map(p=>({id:p.id,name:p.name,cat:p.category||'سایر',price:Number(p.price||0),stock:Number(p.stock||0),description:p.description||'',imageUrl:p.imageUrl||'',active:p.active!==false}));
+    cleanCart(); renderCategories(); render();
+  }catch(e){
+    console.error(e);
+    const el=$('#products'); if(el)el.innerHTML='<div class="empty">اتصال به فروشگاه برقرار نشد. لطفاً چند لحظه بعد دوباره تلاش کنید.</div>';
+  }
+}
+
+function renderCategories(){
+ const cats=['همه',...new Set(products.map(p=>p.cat).filter(Boolean))];
+ const el=$('#cats'); if(!el)return;
+ el.innerHTML=cats.map(c=>`<button class="cat ${c===category?'active':''}" onclick="category='${String(c).replace(/'/g,"\\'")}';renderCategories();render()">${c}</button>`).join('');
+}
+function render(){
+ const el=$('#products'); if(!el)return;
+ const q=(($('#search')||{}).value||'').trim().toLowerCase();
+ const list=products.filter(p=>p.active&&(category==='همه'||p.cat===category)&&(!q||p.name.toLowerCase().includes(q)||p.cat.toLowerCase().includes(q)));
+ el.innerHTML=list.length?list.map(p=>{
+  const q=Number(cart[p.id]||0), sold=p.stock<=0;
+  return `<article class="product"><div class="pic">${p.imageUrl?`<img src="${p.imageUrl}" alt="${escapeHtml(p.name)}" loading="lazy">`:'<span>🛍️</span>'}</div><div class="info"><div class="catname">${escapeHtml(p.cat)}</div><h3>${escapeHtml(p.name)}</h3><p>${escapeHtml(p.description)}</p><strong>${money(p.price)}</strong><div class="stock">${sold?'ناموجود':'موجودی: '+p.stock}</div><div class="actions"><button ${sold?'disabled':''} onclick="addToCart('${String(p.id).replace(/'/g,"\\'")}')">${sold?'ناموجود':q?'افزودن بیشتر':'افزودن به سبد'}</button>${q?`<span class="qty">${q}</span>`:''}</div></div></article>`;
+ }).join(''):'<div class="empty">محصولی پیدا نشد.</div>';
+ updateCartUI();
+}
+function escapeHtml(s){return String(s??'').replace(/[&<>'"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[m]));}
+function addToCart(id){const p=products.find(x=>String(x.id)===String(id));if(!p||p.stock<=0)return;cart[id]=Math.min((cart[id]||0)+1,p.stock);saveCart();render();}
+function changeQty(id,d){const p=products.find(x=>String(x.id)===String(id));if(!p)return;cart[id]=Math.max(0,Math.min(p.stock,(cart[id]||0)+d));if(!cart[id])delete cart[id];saveCart();render();}
+function updateCartUI(){
+ const count=Object.values(cart).reduce((a,b)=>a+Number(b),0);
+ const c=$('#cartCount');if(c)c.textContent=count;
+ const t=$('#cartTotal');if(t)t.textContent=money(total());
+ const items=$('#cartItems');if(items){items.innerHTML=Object.entries(cart).map(([id,q])=>{const p=products.find(x=>String(x.id)===String(id));if(!p)return '';return `<div class="cart-item"><div><b>${escapeHtml(p.name)}</b><small>${money(p.price)}</small></div><div><button onclick="changeQty('${id}',-1)">−</button><span>${q}</span><button onclick="changeQty('${id}',1)">+</button></div></div>`}).join('')||'<div class="empty">سبد خرید خالی است.</div>';}
+}
+function openCart(){const m=$('#cartModal');if(m)m.classList.add('show');updateCartUI();}
+function closeCart(){const m=$('#cartModal');if(m)m.classList.remove('show');}
+async function checkout(){
+ if(!Object.keys(cart).length){alert('سبد خرید خالی است.');return;}
+ const customer={name:($('#name')||{}).value?.trim()||'',phone:($('#phone')||{}).value?.trim()||'',instagram:($('#instagram')||{}).value?.trim()||'',address:($('#address')||{}).value?.trim()||''};
+ if(!customer.name||!customer.phone||!customer.address){alert('نام، شماره تماس و آدرس را وارد کنید.');return;}
+ const payment=($('#payment')||{}).value||'پرداخت در محل';
+ const body={customer,items:Object.entries(cart).map(([id,q])=>({productId:id,quantity:Number(q)})),total:total(),paymentMethod:payment,currency:'IRT'};
+ try{
+  const r=await fetch(ORDER_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  const data=await r.json(); if(!r.ok||!data.ok)throw new Error(data.error||'ORDER_FAILED');
+  const no=data.orderNumber||data.orderId||'ثبت شد'; cart={};saveCart();closeCart();alert('سفارش با موفقیت ثبت شد.\nشماره سفارش: '+no);await loadProducts();
+ }catch(e){alert('ثبت سفارش انجام نشد.\n'+(e.message||'خطا'))}
+}
+
+window.addToCart=addToCart;window.changeQty=changeQty;window.openCart=openCart;window.closeCart=closeCart;window.checkout=checkout;window.render=render;window.renderCategories=renderCategories;
+document.addEventListener('input',e=>{if(e.target&&e.target.id==='search')render()});
+document.addEventListener('DOMContentLoaded',()=>loadProducts());
+</script></body></html>
